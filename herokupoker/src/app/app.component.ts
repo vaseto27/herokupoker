@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'herokupoker';
+  btntitle = 'herokupoker';
+
+  hello() {
+    this.btntitle = "JULI E MRUSNA KURVAA"
+  }
+
+
+
 }
