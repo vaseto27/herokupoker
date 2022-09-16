@@ -1,0 +1,21 @@
+.card {
+  background-color: #51E2F5;
+}
+
+.card > img {
+  margin: auto;
+}
+
+.card-body{
+  background-color: #FFA8B6;
+  text-align: center;
+}
+
+.card-title{
+  color: #EDF7F6;
+}
+
+.card-text{
+  color: #A28089;
+}
+

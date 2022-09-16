@@ -1,2 +1,9 @@
-<h3>{{username}}</h3>
-<img src="assets/images/uli.jpg" alt="">
+
+<div class="card" style="width: 18rem;">
+  <img src="{{user.imgUrl}}" class="card-img-top" alt="..." style="max-width: 80px;">
+  <div class="card-body">
+    <h5 class="card-title">{{user.username}}</h5>
+    <p class="card-text">Спечелени пари: {{user.earnings}}</p>
+    <p class="card-text">Вкарани пари: {{user.costs}}</p>
+  </div>
+</div>

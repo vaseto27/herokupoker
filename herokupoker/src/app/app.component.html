@@ -1,3 +1,9 @@
-<h1 class="title">Здравейте В момента се създава сайте за покер на дружба.</h1>
-<h1 class="coming_soon">Очаквайте скоро</h1>
-<app-user-card></app-user-card>
+<div class="container">
+  <h1 class="title">ТЕГАВИТЕ КОМАРДЖИИ НА ДРУЖБА</h1>
+  <div class="row">
+    <div *ngFor="let user of users" class="col">
+      <app-user-card [user]="user"></app-user-card>
+    </div>
+  </div>
+</div>
+
